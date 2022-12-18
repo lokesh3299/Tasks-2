@@ -1,4 +1,6 @@
-from colorama import Fore, Back, Style
+from colorama import Fore, Back, Style,init
+
+init(convert=True)
 
 for num in range(1,201):
     if num > 1:
